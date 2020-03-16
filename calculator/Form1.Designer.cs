@@ -331,12 +331,14 @@
             // 
             // button28
             // 
+            this.button28.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button28.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button28.Location = new System.Drawing.Point(556, 519);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(73, 59);
             this.button28.TabIndex = 28;
             this.button28.Text = "=";
-            this.button28.UseVisualStyleBackColor = true;
+            this.button28.UseVisualStyleBackColor = false;
             // 
             // button29
             // 
