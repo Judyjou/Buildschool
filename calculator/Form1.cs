@@ -71,5 +71,15 @@ namespace calculator
         {
             textBox1.Text = ".";
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "(";
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = ")";
+        }
     }
 }
