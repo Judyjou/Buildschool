@@ -346,6 +346,7 @@
             this.button29.TabIndex = 29;
             this.button29.Text = "AC";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
