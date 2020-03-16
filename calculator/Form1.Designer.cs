@@ -63,6 +63,7 @@
             this.button32 = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Btn_sub
@@ -380,11 +381,20 @@
             this.button34.Text = "3";
             this.button34.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("新細明體", 20F);
+            this.textBox1.Location = new System.Drawing.Point(34, 51);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(709, 47);
+            this.textBox1.TabIndex = 35;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1024, 590);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
             this.Controls.Add(this.button32);
@@ -423,6 +433,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -463,6 +474,7 @@
         private System.Windows.Forms.Button button32;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.Button button34;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
