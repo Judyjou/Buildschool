@@ -17,29 +17,34 @@ namespace calculator
             InitializeComponent();
         }
 
-        private void button19_Click(object sender, EventArgs e)
+        private void button18_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "1";
+            textBox1.Text = "4";
         }
 
-        private void button26_Click(object sender, EventArgs e)
+        private void button25_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "2";
+            textBox1.Text = "5";
         }
 
-        private void button34_Click(object sender, EventArgs e)
+        private void button32_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "3";
+            textBox1.Text = "6";
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void button17_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
+            textBox1.Text = "7";
         }
 
-        private void button27_Click(object sender, EventArgs e)
+        private void button23_Click(object sender, EventArgs e)
         {
-            textBox1.Text = ".";
+            textBox1.Text = "8";
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "9";
         }
     }
 }
