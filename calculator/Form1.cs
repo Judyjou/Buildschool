@@ -16,5 +16,35 @@ namespace calculator
         {
             InitializeComponent();
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "4";
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "5";
+        }
+
+        private void button32_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "6";
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "7";
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "8";
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "9";
+        }
     }
 }

@@ -227,6 +227,7 @@
             this.button17.TabIndex = 17;
             this.button17.Text = "7";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -236,6 +237,7 @@
             this.button18.TabIndex = 18;
             this.button18.Text = "4";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -281,6 +283,7 @@
             this.button23.TabIndex = 23;
             this.button23.Text = "8";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -290,6 +293,7 @@
             this.button24.TabIndex = 24;
             this.button24.Text = "9";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -299,6 +303,7 @@
             this.button25.TabIndex = 25;
             this.button25.Text = "5";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
             // button26
             // 
@@ -362,6 +367,7 @@
             this.button32.TabIndex = 32;
             this.button32.Text = "6";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
@@ -393,7 +399,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 590);
+            this.ClientSize = new System.Drawing.Size(768, 590);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
