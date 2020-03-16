@@ -179,7 +179,7 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(73, 59);
             this.button12.TabIndex = 12;
-            this.button12.Text = "button12";
+            this.button12.Text = "√";
             this.button12.UseVisualStyleBackColor = true;
             // 
             // button13
@@ -206,7 +206,7 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(73, 59);
             this.button15.TabIndex = 15;
-            this.button15.Text = "button15";
+            this.button15.Text = "x^y";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // button16
