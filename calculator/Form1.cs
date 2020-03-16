@@ -19,67 +19,67 @@ namespace calculator
 
         private void button17_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "7";
+            textBox1.AppendText("7");
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "8";
+            textBox1.AppendText("8");
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "9";
+            textBox1.AppendText("9");
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "4";
+            textBox1.AppendText("4");
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "5";
+            textBox1.AppendText("5");
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "6";
+            textBox1.AppendText("6");
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "1";
+            textBox1.AppendText("1");
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "2";
+            textBox1.AppendText("2");
         }
 
         private void button34_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "3";
+            textBox1.AppendText("3");
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
+            textBox1.AppendText("0");
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            textBox1.Text = ".";
+            textBox1.AppendText(".");
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "(";
+            textBox1.AppendText("(");
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            textBox1.Text = ")";
+            textBox1.AppendText(")");
         }
 
         private void button29_Click(object sender, EventArgs e)
